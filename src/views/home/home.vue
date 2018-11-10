@@ -5,19 +5,18 @@
   </el-aside>
   <el-container>
     <el-header class="header">
-        <HeadIndex/>
+        <head-index></head-index>
     </el-header>
     <el-main class="main">
         <router-view/>
     </el-main>
   </el-container>
-  <!-- <header-index/> -->
 </el-container>
 </template>
 <script>
 import HeadIndex from "@/components/topnav/topnav.vue"
 import AsideNav from "@/components/aside/aside.vue"
-// import HeaderIndex from '@/components/index.vue'
+
 export default {
   components: {
     HeadIndex,

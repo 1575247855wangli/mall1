@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-  name: "head",
+  name: "headindex",
   data() {
     return {};
   },
