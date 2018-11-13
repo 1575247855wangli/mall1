@@ -8,6 +8,7 @@
         <head-index></head-index>
     </el-header>
     <el-main class="main">
+      <bread-name></bread-name>
         <router-view/>
     </el-main>
   </el-container>
@@ -16,11 +17,12 @@
 <script>
 import HeadIndex from "@/components/topnav/topnav.vue"
 import AsideNav from "@/components/aside/aside.vue"
-
+import breadName from "@/components/bread/bread"
 export default {
   components: {
     HeadIndex,
-    AsideNav
+    AsideNav,
+    breadName
   }
 };
 </script>

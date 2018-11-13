@@ -9,6 +9,7 @@
       @close="handleClose"
       background-color="#545c64"
       text-color="#fff"
+      router
       active-text-color="#ffd04b"
       >
       
@@ -22,8 +23,8 @@
           <span>商品</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="/home/administration">商品管理</el-menu-item>
-          <el-menu-item index="/home/sort">品类管理</el-menu-item>
+          <el-menu-item index="/home/total/administration">商品管理</el-menu-item>
+          <el-menu-item index="/home/total/product">品类管理</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
       <el-menu-item index="/home/order">

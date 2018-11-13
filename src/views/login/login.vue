@@ -45,7 +45,7 @@ export default {
         });
       }
       this.$router.push({
-        path:"/home",
+        path:"/home/index",
         params:{
           name:this.username
         }
